@@ -1,0 +1,31 @@
+package MusicMain;
+
+import java.io.File;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import java.awt.EventQueue;
+
+
+import sun.audio.*;
+
+public class MusicPlayerGui {
+    JButton play = new JButton("Play");
+    JButton stop = new JButton("Stop");
+    JButton pause = new JButton("Pause");
+
+    public static void main(String[] why) {
+        new MusicPlayerGui().createGui();
+    }
+
+    public void createGui() {
+        
+    }
+
+}
+
